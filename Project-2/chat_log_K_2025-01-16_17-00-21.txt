@@ -1,0 +1,20 @@
+User: K has started the chat with Alexa.
+K: when can i see my teachers?
+Alexa: The teachers are always available to help you.
+K: how about cafe near me?
+Alexa: I did not understand it.
+K: coffee?
+Alexa: The coffee bar in the college is open from 8 AM to 5 PM.
+K: when can i pay my fees?
+Alexa: Tuition fees depend on the course. Check our website for details.
+K: how about admissions?
+Alexa: Admissions are open until the end of next month.
+K: and what are you doing ?
+Alexa: Thats a tough one! Let me see what I can do.
+K: that is not a tough one
+Alexa: Hmm, that's beyond my knowledge right now.
+K: i seee
+Alexa: I am sorry. I was of no use for you
+K: and how are you?
+Alexa: I'm not sure about that, but I'll try to find out!
+Alexa: Disconnected unexpectedly.
