@@ -1,1 +1,67 @@
+Our group work is a Futsal Booking System application built using Tkinter (for GUI) and OpenPyXL (for handling Excel files). 
+
+1. Purpose of the App:
+•	Allows users to register and log in.
+•	Provides functionalities to:
+o	Add player details (name, contact, team).
+o	Book futsal grounds with details like date, time, and field.
+o	Save and view matches between teams.
+o	Manage all data using Excel files for storage.
+________________________________________
+2. Key Features:
+a. User Registration and Login:
+•	Users can register with a username, email, and password, which are saved in an users.xlsx file.
+•	During login, the system checks the username and password against saved records.
+________________________________________
+
+b. Add Players:
+•	Users can add player details (name, contact, and team) using the "Add" page.
+•	These details are saved in the player.xlsx file.
+•	A table in the UI shows the list of all players.
+______________________________________
+c. Match Management:
+•	Users can save matches by entering:
+•	Team 1 and Team 2 names.
+•	Field name.
+•	Match time.
+•	Match details are saved in matches.xlsx and can be displayed in a table.
+______________________________________
+d. Futsal Booking:
+•	Users can book a futsal ground by entering:
+o	Name, contact number, date, time, and field.
+•	The app ensures no double-booking for the same date, time, and field.
+•	Bookings are saved in futsal_bookings.xlsx.
+________________________________________
+3. How the App Works:
+1.	Start:
+o	The app begins at the login page.
+o	New users can go to the register page to create an account.
+2.	Home Page:
+o	After logging in, users are directed to the home page with options to:
+	Add players.
+	Book futsal grounds.
+	View matches.
+	Exit the application.
+3.	Excel Handling:
+o	Excel files (users.xlsx, player.xlsx, matches.xlsx, futsal_bookings.xlsx) are used for data storage.
+o	If a file doesn't exist, it is created automatically.
+________________________________________
+4. User Interface Design:
+•	Tkinter Frames are used to create different sections:
+	Login Frame: For logging in.
+	Register Frame: For creating accounts.
+	Home Frame: Main menu after logging in.
+	Add Frame: For adding players.
+	Match Viewer Frame: For managing matches.
+	Booking Frame: For booking futsal grounds.
+•	Buttons, labels, and entry fields are used for user interaction.
+________________________________________
+5. Validations and Error Handling:
+•	Prevents duplicate usernames during registration.
+•	Ensures no double-booking of a futsal ground.
+•	Displays messages for success or error using messagebox.
+________________________________________
+6. Exit and Navigation:
+•	Users can navigate between pages (e.g., from home to add player or booking).
+•	They can exit the app at any time.
 
