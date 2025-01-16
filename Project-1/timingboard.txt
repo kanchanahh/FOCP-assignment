@@ -1,1 +1,34 @@
+Project-1
+Timing Board
+
+This program is designed to process and display race data from two input files, one containing driver details and another containing lap times.
+
+1. Driver Details Parsing
+•	The program reads a driver file containing lines formatted as: ID, Code, Name, Team.
+•	It extracts each driver's code, name, and team and stores them in a dictionary where the key is the driver's code (e.g., "HAM"), and the value is a dictionary with their name and team.
+
+2. Lap Times Parsing
+•	The program reads a lap times file containing the race location on the first line and lap times for drivers on subsequent lines, formatted as: DriverCode LapTime.
+•	It organizes lap times into a dictionary where the key is the driver's code and the value is a list of their lap times.
+•	If the file is missing, empty, or has invalid data, it raises errors.
+
+3. Calculating Driver Statistics
+•	For each driver, the program calculates:
+o	The fastest lap time.
+o	The average lap time (sum of lap times divided by the number of laps).
+
+4. Displaying Results
+•	The data is presented in a table with the following columns:
+o	Driver Code: The unique code identifying the driver.
+o	Name: The driver's full name (from the driver file).
+o	Team: The team the driver represents.
+o	Fastest Lap: The quickest lap time of the driver.
+o	Average Lap: The average time of all laps.
+
+5. Highlighting the Fastest Lap
+•	After showing the table, the program identifies the driver with the fastest lap across the entire race and prints their time, driver code, and name.
+
+Error Handling
+•	If a file is missing, empty, or improperly formatted, the program catches the errors and displays message.
+•	It also skips any invalid lap times in the file without crashing.
 
