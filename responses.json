@@ -1,0 +1,23 @@
+{
+    "coffee": "The coffee bar in the college is open from 8 AM to 5 PM.",
+    "library": "The library is open 24/7 for all students.",
+    "fees": "Tuition fees depend on the course. Check our website for details.",
+    "admission": "Admissions are open until the end of next month.",
+    "books": "Maybe you can try searching for books in library.",
+    "weather":"Its a great weather today! I hope you are enjoying it.",
+    "time":"Time is precious. Use it well",
+    "study":"You can study with your friends in the cafe.",
+    "comupter lab":"There are high quality equipments in the lab",
+    "teachers":"The teachers are always available to help you.",
+
+    "default": [
+        "That's an interesting question! Can you tell me more?",
+        "I'm not sure about that, but I'll try to find out!",
+        "Could you clarify your question?",
+        "Hmm, that's beyond my knowledge right now.",
+        "I did not understand it.",
+        "I am sorry. I was of no use for you",
+        "Thats a tough one! Let me see what I can do.",
+        "Thats new territory for me, but I will try my best to help."
+    ]
+}
